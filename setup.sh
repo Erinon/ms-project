@@ -1,3 +1,3 @@
 #!/bin/bash
 
-conda env create --file environment.yml --prefix ./env
+conda env create --file environment.yml

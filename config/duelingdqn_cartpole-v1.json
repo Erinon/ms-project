@@ -1,0 +1,21 @@
+{
+    "env_name": "CartPole-v1",
+    "agent_name": "DQNAgent",
+    "agent_params": {
+        "layer_sizes": [32],
+        "adv_sizes": [32],
+        "val_sizes": [32],
+        "gamma": 0.999,
+        "memory_size": 10000,
+        "dueling": true
+    },
+    "train_params": {
+        "episodes": 1000,
+        "episode_maxiter": 10000,
+        "epsilon": 1.0,
+        "epsilon_final": 0.05,
+        "warmup_episodes": 800,
+        "target_update": 100,
+        "batch_size": 128
+    }
+}
